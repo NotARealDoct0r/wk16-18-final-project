@@ -1,0 +1,19 @@
+/* css to customize the body (i.e. background-image, size, position, etc. */
+body{
+  background-image: url("https://www.enelgreenpower.com/content/dam/enel-egp/immagini/learning-hub/transizione-energetica/rinnovabili_transizione_2400x1160.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* created a hover element to change color + added a transition effect */
+.hover-link {
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+
