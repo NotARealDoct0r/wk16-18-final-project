@@ -70,7 +70,7 @@ export default function App() {
             
           {/* switch = evaluate value(s) and based on the value, it will render 1 or the other view */}
           <Switch>
-            {/* specifying what to render within the 'solutions' URL */}
+            {/* specifying what to render within the path */}
             <Route path='/specialthanks'>
               <br/><br/>
               <SpecialThanks names={['Jamal Taylor - (Instructor)', 'Christopher Conway - (Mentor)', 'Jolene Melanson - (Mentor)', 
