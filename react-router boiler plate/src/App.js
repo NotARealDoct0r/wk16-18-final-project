@@ -51,7 +51,7 @@ export default function App() {
           <ButtonGroup>
             {/* 'Button' - 'B' is capitalized, unlike 'button' in HTML, because this is a component from React Bootstrap */}
             <Button variant='outline-secondary'>
-               {/* (below) 4 links/pages + customize URL display */}
+               {/* (below) 5 links/pages + customize URL display */}
               <Link to="/" className="hover-link">Home</Link>
             </Button>
             <Button variant='outline-secondary'>
