@@ -36,7 +36,7 @@ const WeatherForecast = () => {
   return (
     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr' }}>
       <div>
-        {/* headers with styled text + retrieving weather data from API (used chatGPT to help with this)*/}
+        {/* headers with styled text + retrieving weather data from API */}
         <br/><h1 style={{ color: 'black' }}>Weather Forecast</h1>
         {weatherData ? (
           <div><br/>
